@@ -59,4 +59,4 @@ dim_payment_method.to_csv(os.path.join(output_path, 'dim_payment_method.csv'), i
 dim_channel.to_csv(os.path.join(output_path, 'dim_channel.csv'), index=False)
 dim_status.to_csv(os.path.join(output_path, 'dim_status.csv'), index=False)
 
-print("✅ Dimension tables saved to 'processed_data' folder.")
+print("Dimension tables saved to 'processed_data' folder.")

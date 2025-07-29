@@ -20,10 +20,10 @@ revenue_by_plan = plan_join.groupby('payment_frequency_code')['cost_amount'].sum
 total_revenue = plan_join['cost_amount'].sum()
 
 # Output insights
-print("🎮 Sessions by Channel:")
+print(" Sessions by Channel:")
 print(channel_summary)
 
-print("\n💰 Revenue by Payment Type:")
+print("\n Revenue by Payment Type:")
 print(revenue_by_plan)
 
-print(f"\n💵 Total Gross Revenue: ${total_revenue:,.2f}")
+print(f"\n Total Gross Revenue: ${total_revenue:,.2f}")

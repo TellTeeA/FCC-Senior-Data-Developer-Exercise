@@ -27,4 +27,4 @@ fact_table.drop(columns=['join_channel_code', 'join_status_code'], inplace=True)
 # Save to CSV
 fact_table.to_csv(os.path.join(proc_path, 'fact_user_play_session.csv'), index=False)
 
-print("✅ Fact table created and saved to 'processed_data/fact_user_play_session.csv'")
+print("Fact table created and saved to 'processed_data/fact_user_play_session.csv'")

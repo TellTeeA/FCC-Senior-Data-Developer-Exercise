@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-# Set the path to your raw data folder
+# Set the path to raw data folder
 data_path = os.path.join(os.getcwd(), 'raw_data')
 
 # File mapping
