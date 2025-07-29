@@ -1,4 +1,0 @@
-status_code,status_description_en,status_description_fr
-COMPLETED,Session completed,Session terminée
-ABORTED,Session aborted,Session interrompue
-TIMEOUT,Session timeout,Délai d'expiration de la session
