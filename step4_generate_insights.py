@@ -27,3 +27,9 @@ print("\n Revenue by Payment Type:")
 print(revenue_by_plan)
 
 print(f"\n Total Gross Revenue: ${total_revenue:,.2f}")
+
+# Forecasting Placeholder
+# Assume a 10% YoY growth for 2025
+forecast_2025 = total_revenue * 1.10
+print(f"\n Projected 2025 Revenue (10% Growth): ${forecast_2025:,.2f}")
+

@@ -47,6 +47,8 @@ All output files are stored as CSVs in `/processed_data/`.
   - MONTHLY: $147.26
 - **Total Gross Revenue:** $1,930.85
 
+Projected 2025 Revenue (10% YoY growth): $2,123.94
+
 ---
 
 ##  Submission
